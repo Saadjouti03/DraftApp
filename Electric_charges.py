@@ -12,7 +12,7 @@ if kw_hours <= 1000:
 else:
     amount_cents = (1000 * rate_first) + ((kw_hours - 1000) * rate_over)
 
-# Convert cents to dollars
+# Convert cents to dollars58
 amount_dollars = amount_cents / 100
 
 # Output result
